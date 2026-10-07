@@ -1,6 +1,6 @@
 # RoadWatch — Pothole Detection Project
 
-A computer vision project for object detection that detects potholes in road images and recorded video using a fine-tuned YOLOv8n model. A Streamlit interface provides annotated media, CSV detection logs, and optional maps using supplied camera GPS.
+A computer vision project that detects potholes in road images and recorded video using a fine-tuned YOLOv8n model. A Streamlit interface provides annotated media, CSV detection logs, and optional maps using supplied camera GPS.
 
 ## Features
 
