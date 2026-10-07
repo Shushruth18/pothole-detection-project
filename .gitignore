@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+dataset/
+raw/
+runs/
+results/
+*.zip
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+kaggle.json

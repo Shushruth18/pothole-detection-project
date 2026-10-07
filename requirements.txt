@@ -1,0 +1,7 @@
+ultralytics>=8.3,<9
+streamlit>=1.40,<2
+opencv-python>=4.10,<5
+Pillow>=10,<13
+folium>=0.18,<1
+PyYAML>=6,<7
+kagglehub>=0.3,<1

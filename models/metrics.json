@@ -1,0 +1,11 @@
+{
+  "dataset": "/content/pothole_dataset/data.yaml",
+  "checkpoint": "models/best.pt",
+  "training_run": "/content/runs/detect/runs/pothole",
+  "test_precision": 0.6284984373662099,
+  "test_recall": 0.6989966555183946,
+  "test_mAP50": 0.7207448769020403,
+  "test_mAP50_95": 0.43503021815796694,
+  "evaluation_split": "test",
+  "seed": 42
+}
