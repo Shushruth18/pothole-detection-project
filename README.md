@@ -1,6 +1,6 @@
 # RoadWatch — Pothole Detection Project
 
-A bachelor-level AI/ML project that detects potholes in road images and recorded video using a fine-tuned YOLOv8n model. A Streamlit interface provides annotated media, CSV detection logs, and optional maps using supplied camera GPS.
+A computer vision project for object detection that detects potholes in road images and recorded video using a fine-tuned YOLOv8n model. A Streamlit interface provides annotated media, CSV detection logs, and optional maps using supplied camera GPS.
 
 ## Features
 
@@ -114,11 +114,11 @@ Tests cover coordinate conversion, invalid boxes, split membership, GPS toleranc
 | `models/best.pt` | Trained pothole checkpoint |
 | `models/metrics.json` | Recorded test results |
 | `tests/test_pipeline.py` | Pipeline checks |
-| `PROJECT_REPORT.md` | Student report draft and viva notes |
+| `PROJECT_REPORT.md` | Project report and technical notes |
 
 ## Limitations
 
-Shadows, rain, repairs, camera viewpoint, and local-road differences may cause misses or false alarms. Repeated video detections are observations, not a count of unique potholes. Box image area does not measure physical size, depth, or validated severity. This is a student prototype, not a validated municipal deployment.
+Shadows, rain, repairs, camera viewpoint, and local-road differences may cause misses or false alarms. Repeated video detections are observations, not a count of unique potholes. Box image area does not measure physical size, depth, or validated severity. This is a computer vision prototype; municipal deployment would require further validation.
 
 ## References
 

@@ -1,10 +1,10 @@
 # RoadWatch: Pothole Detection from Road Images and Videos
 
-Student: [Name] | Institution: [Institution] | Department: [Department]
+Domain: Computer vision | Task: Pothole object detection | Model: YOLOv8n
 
 ## Abstract
 
-RoadWatch is a student prototype for detecting visible potholes in road photographs and recorded video. It fine-tunes YOLOv8n using Atikur Rahman Chitholian's Annotated Potholes Image Dataset from Kaggle. XML annotations are converted into YOLO labels and data is divided into training, validation, and held-out test sets. A Streamlit interface exports annotated media and CSV records. Actual supplied camera coordinates support optional mapping. Performance is measured using precision, recall, mAP@50, and mAP@50–95. Results must be added after execution; no accuracy claim is made yet.
+RoadWatch is a computer vision prototype for detecting visible potholes in road photographs and recorded video. It fine-tunes YOLOv8n using Atikur Rahman Chitholian's Annotated Potholes Image Dataset from Kaggle. XML annotations are converted into YOLO labels and data is divided into training, validation, and held-out test sets. A Streamlit interface exports annotated media and CSV records. Actual supplied camera coordinates support optional mapping. Performance is measured using precision, recall, mAP@50, and mAP@50–95. Results must be added after execution; no accuracy claim is made yet.
 
 ## Objectives and approach
 
@@ -38,7 +38,7 @@ Future work: representative local data split by road/recording, night/rain evalu
 
 [After evaluation: state the measured outcome, describe observed failures, and say whether results support a classroom demonstration. Do not claim production readiness.]
 
-## Viva notes
+## Technical notes
 
 - Detection provides locations of multiple potholes; image classification alone does not.
 - Transfer learning adapts pretrained visual features to a smaller pothole dataset.
